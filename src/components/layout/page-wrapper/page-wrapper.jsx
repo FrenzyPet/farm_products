@@ -3,12 +3,12 @@ import Footer from "../footer/footer";
 import MainPage from "../../pages/main-page";
 import './page-wrapper.css'
 
-const PageWrapper = () => {
+const PageWrapper = ({ state }) => {
   return (
     <>
       <Header />
       <main className="page-wrapper__main">
-        <MainPage />
+        <MainPage state={state}/>
       </main>
       <Footer />
     </>
