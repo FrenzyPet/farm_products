@@ -1,8 +1,8 @@
-const MainPage = () => {
+const About = () => {
   return (
     <>
     </>
   );
 }
 
-export default MainPage;
+export default About;
